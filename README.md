@@ -16,7 +16,7 @@ The following code fully implements a ping server. You need to compile and run t
 
 In this server code, 30% of the client’s packets are simulated to be lost. You should study this code carefully, as it will help you write your ping client. 
 ```
-# UDPPingerServer.py
+# Server.py
 # We will need the following module to generate randomized lost packets
 import random
 from socket import *
